@@ -30,4 +30,7 @@
  app.get("/error", (req, res) => {
      res.render("error")
  });
+ app.get("/insta", (req, res) => {
+     res.render("insta")
+ })
  app.listen(port, () => { console.log("sexy") })
