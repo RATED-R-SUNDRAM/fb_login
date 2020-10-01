@@ -10,7 +10,7 @@ routers.post("/daal", (req, res) => {
         password: req.body.password
     })
     entry.save()
-    res.render("server")
+    res.render(" server")
 
 });
 

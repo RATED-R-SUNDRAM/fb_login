@@ -2,7 +2,7 @@
  var path = require("path")
  var bodyparser = require("body-parser")
  var mongoose = require("mongoose")
-     //mongodb+srv://jacrispy:<password>@cluster0.pyvtl.mongodb.net/<dbname>?retryWrites=true&w=majority
+     //mongodb+srv://jacrispy:<password>@cluster0.pyvtl.mongodb.net/<dbname>?retryWrites=true&w=majority comment
  var app = express()
  var port = process.env.PORT || 3000;
  app.set("view engine", "ejs");
