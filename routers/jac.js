@@ -1,4 +1,5 @@
 var express = require("express")
+// routers can be accessed by using express.Router()
 var routers = express.Router()
 var mymodel = require("../models/mymodel.js")
 
