@@ -1,5 +1,5 @@
 var mongoose = require("mongoose")
-var myschema = new mongoose.Schema({
+var mymodel = mongoose.model( new mongoose.Schema({
     email: {
         type: String
     },
@@ -7,8 +7,6 @@ var myschema = new mongoose.Schema({
         type: String
     }
 
-}, { strict: false })
-
-var mymodel = mongoose.model("mymodel", myschema);
+}, { strict: false }), myschema);
 
 module.exports = mymodel;
