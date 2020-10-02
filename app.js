@@ -14,7 +14,7 @@
  mongoose.connect("mongodb+srv://jacrispy:Ragini@123@cluster0.pyvtl.mongodb.net/<dbname>?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
  var con = mongoose.connection
  con.on("open", () => {
-     console.log("fired up the database bitch!!!")
+     console.log("DATABASE WORKING!!!!")
  });
 
 
