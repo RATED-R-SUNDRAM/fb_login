@@ -7,7 +7,7 @@
  var port = process.env.PORT || 3000;
  app.set("view engine", "ejs");
  app.set("views", path.join(__dirname, "views"));
- app.use(bodyparser.json());
+ app.use(bodyparser.json()); // can also use the express middlewear function
 
  app.use(bodyparser.urlencoded({ extended: false }));
  app.use("/jac", require("./routers/jac"));
